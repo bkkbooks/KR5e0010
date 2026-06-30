@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5e0010/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5e0010/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上靈寶淨明九仙水經
+  date: '2015-08-29 02:06:45.376977'
+  source:
+    repository: kanripo
+    path: KR5e0010
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5e0010_000-ZTDZ.yaml, hash: 'sha256:631b1813bbad5c752de4f69a895d942566626e3b1c98d0ca425479900c1217ef'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5e0010_000-ZTDZ.markers.yaml, hash: 'sha256:cda6440490a1293939876fc95d4a667101fb7e42a1861395e8d60f3915b13680'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5e0010_SJB_000-240616b
+    span:
+    - body
+    - 0
+    - 1249
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:62903aaee5b3f570af705c8d081fbc8480bd27e315bf1d9ce8afda8df91785c0

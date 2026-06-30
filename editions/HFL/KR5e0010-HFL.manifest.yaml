@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5e0010/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5e0010/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上靈寶淨明九仙水經
+  date: '2015-08-29 02:06:45.376977'
+  source:
+    repository: kanripo
+    path: KR5e0010
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5e0010_000-HFL.yaml, hash: 'sha256:a0933978191e2502babc742d75588b1c3ad964f1011e0c4e91f9acd1024ec41f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5e0010_000-HFL.markers.yaml, hash: 'sha256:ea08ed74b878b0c7e77cd19e9042fabad8faca4e3e00f3b20e590670f0049878'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5e0010_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1249
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:cbcbf505aeb0d36ae462c77fecbdf722ed1121b596cbfa7f2c4dcc5ac3f39282
